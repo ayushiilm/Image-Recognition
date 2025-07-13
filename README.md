@@ -2,14 +2,24 @@
 - **To get started Image Classification with tensorflow I implemented basic neural network which classifies the image and predict digits from hand-written images with a high degree of accuracy..**
 - Created, trained and evaluated a neural network in TensorFlow.
 
-- Following steps were performed in order to achieve the end results and improve the accuracy :
-   - [x] Encoded the labels.
-   - [x] Understood neural networks.
-   - [x] Preprocessed image examples.
-   - [x] Created a neural network model.
-   - [x] Trained the model to fit the dataset.
-   - [x] Evaluated the model.
-   - [x] Visualized the predictions.
- 
- ![](images/1_1.png)
- 
+## 🧠 Project Overview
+
+* Trains a dense neural network to recognize MNIST digits.
+* Achieves high accuracy through clear, step-by-step stages:
+
+  1. **Data loading & preprocessing** (normalize pixels, one-hot encode labels)
+  2. **Model definition** (input → dense layers → softmax)
+  3. **Training** with validation monitoring
+  4. **Evaluation** on test data
+  5. **Visualization** of sample predictions
+
+
+## 🚀 Extensions & Next Steps
+
+* Add **Dropout** to control overfitting
+* Replace dense layers with a **CNN** for improved accuracy
+* Test with **Fashion-MNIST** or your own handwritten samples
+
+---
+
+
